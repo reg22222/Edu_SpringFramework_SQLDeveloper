@@ -1,0 +1,16 @@
+select * from tab;
+
+create table myboard(
+ seq number(5) PRIMARY KEY,
+ title VARCHAR2(210),
+ writer VARCHAR2(21),
+ content VARCHAR2(2000),
+ regdate date default sysdate,
+ cnt number(5) default 0
+);
+
+select * from tab;
+
+select * from myboard;
+
+desc myboard;

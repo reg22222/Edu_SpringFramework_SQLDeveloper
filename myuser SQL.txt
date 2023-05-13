@@ -1,0 +1,12 @@
+create table myuser(
+ id varchar2(10) primary key,
+ password varchar2(10),
+ name varchar2(21),
+ role varchar2(10)
+);
+insert into myuser
+values('tommy', 'spring', '이승재', 'admin');
+
+insert into myuser
+values('tommy', 'spring', '이승재', 'admin');
+commit;
